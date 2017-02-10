@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e8f5e9" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="Offer No:- "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TV_offer_no_see"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="-----"
+                    android:textStyle="italic" />
+				
+                 <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="Status:- "
+                    android:textStyle="bold" />
+                
+                
+                <TextView
+                    android:id="@+id/TV_TILL_STOCK_LASTSS"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="-----"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="From:- "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TV_offer_date_from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="-----"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="To:- "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TV_offer_date_to"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="-----"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="Offer Name:  "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TV_offer_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="-----"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#000000" />
+        </LinearLayout>
+
+
+
+         <!-- <View -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="1dp" -->
+        <!-- android:layout_marginTop="-10dp" -->
+        <!-- android:background="#000000" /> -->
+
+        <TextView
+            android:id="@+id/tvseepresc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="See Offer "
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IV_offer_photo"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:onClick="sendingimage"
+            android:src="@drawable/ic_launcher" />
+
+        <!-- android:layout_marginTop="100dp" -->
+
+
+        <!-- <ImageButton -->
+        <!-- android:id="@+id/Btn_IMG_prec_img" -->
+        <!-- android:layout_width="100dp" -->
+        <!-- android:layout_height="100dp" -->
+        <!-- android:layout_gravity="center" -->
+        <!-- android:contentDescription="@string/app_name" -->
+        <!-- android:src="@drawable/ic_launcher" /> -->
+        <!-- android:onClick="imgClick" -->
+
+        <Button
+            android:id="@+id/btnoffer_purchase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#4caf50"
+            android:onClick="acceptOrder"
+            android:text="Purchase Offer" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.UttamMedicals.uttammedicalsfinalpatient"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+     <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.CAMERA"/> 
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.About"
+            android:label="About Uttam Medicals" >
+        </activity>
+         <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.Disclaimer"
+            android:label="About Uttam Medicals" >
+        </activity>
+       <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.SeenewProducts"
+            android:label="About Uttam Medicals" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.newproductsdetail"
+            android:label="About Uttam Medicals" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.ListPrescMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.SeeoffersActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.OfferDetails"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.Menu_class"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.Patient_see_offersimage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.RainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.SummerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.WinterActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.TabHostActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.UttamMedicals.uttammedicalsfinalpatient.Registration"
+            android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+
+</manifest>

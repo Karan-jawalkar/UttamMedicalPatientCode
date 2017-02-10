@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="#e8f5e9"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="50dp"
+            android:text="UTTAM MEDICALS"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="75dp"
+            android:text="CHEMISTS &amp; DRUGGISTS" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:text="17/A/3,Karve Road, Ganesh Chambers, Pune-411 004. Tel:020-25440993, 65247295" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:text="We manage your health"
+            android:textSize="25sp" />
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="Disclaimer: "
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+          />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+          	android:text="In Compliance with the Indian Govt Drug and Cosmetic Act Rules, we do not process request for schedule X and other habit forming drugs for schedule H and H1 drugs you will need to upload valid prescription from a Registered medical practioner, before we can process your Order." 
+          	 android:layout_marginLeft="15dp"  
+        />
+			
+    </LinearLayout>
+
+</ScrollView>

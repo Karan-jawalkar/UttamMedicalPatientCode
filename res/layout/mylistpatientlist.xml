@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="30dp"
+  
+    android:orientation="horizontal"
+     android:background="#e8f5e9"
+     >
+
+
+    <TextView
+        android:id="@+id/TV_OFFERNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="vijay"
+        android:textSize="20sp" >
+    </TextView>
+    <TextView
+        android:id="@+id/TV_OFFERNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:text="1"
+        android:textSize="20sp" />
+
+</RelativeLayout>

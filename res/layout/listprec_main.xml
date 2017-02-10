@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="#e8f5e9"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginBottom="40dp" -->
+        <!-- android:layout_marginLeft="10dp" -->
+        <!-- android:orientation="vertical" > -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/datebtnclick"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:background="#4caf50"
+                android:onClick="selectDate"
+                android:text="select date"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/selected_date_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="Selected date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/timefrombtnclick"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:background="#4caf50"
+                android:onClick="selectFromTime"
+                android:padding="10dp"
+                android:text="time from"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/selected_time_from_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="Selected time from" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/timetobtnclick"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:background="#4caf50"
+                android:onClick="selectToTime"
+                android:padding="10dp"
+                android:text="time to"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/selected_time_to_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Selected time to" />
+            <!-- </LinearLayout> -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/rgOpinion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery options" />
+
+                <RadioButton
+                    android:id="@+id/rdbtnhome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Home" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rdbtnshop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shop pickup" >
+                </RadioButton>
+            </RadioGroup>
+
+            <!-- <RadioButton -->
+            <!-- android:id="@+id/rdbtnhome" -->
+            <!-- android:layout_width="120dp" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_gravity="left" -->
+            <!-- android:layout_marginTop="10dp" -->
+            <!-- android:padding="10dp" -->
+            <!-- android:text="Home delivery" -->
+            <!-- /> -->
+
+
+            <!-- <RadioButton -->
+            <!-- android:id="@+id/rdbtnshop" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_marginLeft="150dp" -->
+            <!-- android:layout_marginTop="10dp" -->
+            <!-- android:gravity="center" -->
+            <!-- android:text="Shop pickup" /> -->
+            <!-- </LinearLayout> -->
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter item" />
+
+            <EditText
+                android:id="@+id/etqty1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/item2"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/item1"
+                android:ems="10"
+                android:hint="quantity"
+                android:inputType="phone" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item1"
+                android:layout_marginTop="8dp"
+                android:hint="Enter item" />
+
+            <EditText
+                android:id="@+id/etqty2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/item3"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/item2"
+                android:ems="10"
+                android:hint="quantity"
+                android:inputType="phone" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item2"
+                android:layout_marginTop="8dp"
+                android:hint="Enter item" />
+
+            <EditText
+                android:id="@+id/etqty3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/item4"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/item3"
+                android:ems="10"
+                android:hint="quantity"
+                android:inputType="phone" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/item4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item3"
+                android:layout_marginTop="8dp"
+                android:hint="Enter item" />
+
+            <EditText
+                android:id="@+id/etqty4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/item3"
+                android:layout_toRightOf="@+id/item4"
+                android:ems="10"
+                android:hint="quantity"
+                android:inputType="phone" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/item5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item4"
+                android:layout_marginTop="8dp"
+                android:hint="Enter item" />
+
+            <EditText
+                android:id="@+id/etqty5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/item4"
+                android:layout_toRightOf="@+id/item5"
+                android:ems="10"
+                android:hint="quantity"
+                android:inputType="phone" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/item6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item5"
+                android:layout_marginTop="8dp"
+                android:hint="Enter item" />
+
+            <EditText
+                android:id="@+id/etqty6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/item5"
+                android:layout_toRightOf="@+id/item6"
+                android:ems="10"
+                android:hint="quantity"
+                android:inputType="phone" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/item7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item6"
+                android:layout_marginTop="8dp"
+                android:hint="Enter item" />
+
+            <EditText
+                android:id="@+id/etqty7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/item6"
+                android:layout_toRightOf="@+id/item7"
+                android:ems="10"
+                android:hint="quantity"
+                android:inputType="phone" >
+            </EditText>
+            
+              <EditText
+                android:id="@+id/item8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item7"
+                android:layout_marginTop="8dp"
+                android:hint="Enter item" />
+
+            
+            <EditText
+                android:id="@+id/etqty8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/item7"
+                android:layout_toRightOf="@+id/item8"
+                android:ems="10"
+                android:hint="quantity"
+                android:inputType="phone" >
+            </EditText>
+            
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="8dp"
+            android:text="For image of prescription click image button" />
+
+        <!-- <Imageview -->
+        <!-- android:id="@+id/IG_FORCAPTUREPRESC" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="313dp" > -->
+        <!-- </Imageview> -->
+
+        <ImageView
+            android:id="@+id/IG_FORCAPTUREPRESC"
+            android:layout_width="match_parent"
+            android:layout_height="313dp" />
+
+        <ImageView
+            android:id="@+id/IG_FORCAPTUREPRESC1"
+            android:layout_width="match_parent"
+            android:layout_height="313dp"
+            android:layout_marginTop="10dp" />
+        <!-- <ImageView -->
+
+
+        <!-- android:id="@+id/IGI_FORCAPTUREPRESC" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="313dp" -->
+
+
+        <!-- /> -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <!-- <Button -->
+            <!-- android:id="@+id/btnclick" -->
+            <!-- android:layout_width="150dp" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_gravity="center" -->
+            <!-- android:layout_marginLeft="-14dp" -->
+            <!-- android:layout_marginTop="10dp" -->
+            <!-- android:padding="10dp" -->
+            <!-- android:text="Snap" -->
+            <!-- android:textColor="#ffffff" -->
+            <!-- android:visibility="gone" /> -->
+
+            <Button
+                android:id="@+id/btn_camera"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#4caf50"
+                android:padding="10dp"
+                android:text="Snap"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_camera1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#4caf50"
+                android:padding="10dp"
+                android:text="Snap one more"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnplaceorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#4caf50"
+            android:padding="10dp"
+            android:text="Place Order"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</ScrollView>

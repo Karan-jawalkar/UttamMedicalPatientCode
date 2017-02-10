@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#e8f5e9"
+     >
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:background="#4caf50"
+        android:text="About"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnhealthtips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/about"
+        android:layout_marginTop="18dp"
+        android:background="#4caf50"
+        android:text="Health Tips"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btsnap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnhealthtips"
+        android:layout_marginTop="17dp"
+        android:background="#4caf50"
+        android:text="Place Order"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnseeeoffers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btsnap"
+        android:layout_marginTop="18dp"
+        android:background="#4caf50"
+        android:text="See Offers"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btndiscalimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnseeeoffers"
+        android:layout_marginTop="18dp"
+        android:background="#4caf50"
+        android:text="Disclaimer"
+        android:textColor="#ffffff" />
+  
+    <Button
+        android:id="@+id/btnseenewproducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btndiscalimer"
+        android:layout_marginTop="18dp"
+        android:background="#4caf50"
+        android:text="New Products"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

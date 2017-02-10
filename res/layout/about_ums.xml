@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+     android:background="#e8f5e9"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="50dp"
+            android:text="UTTAM MEDICALS"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="75dp"
+            android:text="CHEMISTS &amp; DRUGGISTS" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:text="17/A/3,Karve Road, Ganesh Chambers, Pune-411 004. Tel:020-25440993, 65247295" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:text="We manage your health"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Established in 1976, We are a PROFESSIONALLY managed pharmacy. Providing all types of Medicines and surgical products." 
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="Our product category :"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+          />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:text="Allopathy, Herbal Medicines, Cosmetics, Orthopedic Products, Glucometers, B.P.Apparatus,Weighing scales and other Latest point of care Equipment." 
+          	 android:layout_marginLeft="15dp"  
+        />
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:text="We also have special service for senior citizens and people suffering from chronic aliments like Diabetic, B.P. Etc"
+	     />
+			<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:text="1)Home delivery*"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="10dp"
+        />
+			
+			<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:text="2)Monthly prescription Reminders"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="10dp"
+        />
+			<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:text="3)Value added Benefit for our loyal customers*"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="10dp"
+        />
+			<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:text="Including Super savings on prescription drugs. Periodic patient awareness and free heart check-up camps"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="5dp"
+        />
+			
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our other value added service :"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+          />
+        
+        <TextView 
+          android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Acceptability of Credit / Debit cards"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            />
+        
+        <TextView 
+          android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Availability of all drugs procured and stored at proper temperature"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            />
+        
+        <TextView 
+          android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Trained pharmacist's which provide you complete information on dosage of drugs, their Interactions and other drug related queries"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            />
+        
+        
+        <TextView 
+          android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Fully Transparent, Computerised Billing"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            />
+			
+    </LinearLayout>
+
+</ScrollView>
